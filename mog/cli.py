@@ -8,7 +8,7 @@ from rich.console import Console
 from rich.panel import Panel
 from rich.text import Text
 
-console = Console()
+console = Console(markup=False)
 
 LOG_RE = re.compile(
     r"^(?P<timestamp>\d{2}-[A-Za-z]{3}-\d{4}\s+\d{2}:\d{2}:\d{2}\.\d+)\s+"
@@ -45,9 +45,11 @@ def print_log_entry(match):
 
     console.print(header)
 
+    message = Text.from_ansi(match.group("message"))
+
     console.print(
         Panel(
-            match.group("message"),
+            message,
             border_style=colour,
             title=level,
             expand=False,
