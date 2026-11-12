@@ -70,9 +70,12 @@ def process_file(filename):
                 print_stacktrace(line)
 
 
-if __name__ == "__main__":
+def main():
     if len(sys.argv) != 2:
         print(f"Usage: {Path(sys.argv[0]).name} catalina.out")
         sys.exit(1)
 
     process_file(sys.argv[1])
+
+if __name__ == "__main__":
+    main()
