@@ -106,11 +106,11 @@ def print_stacktrace(line):
 
 
 def process_stream(fh):
+    current_match = None
+    current_trace = []
+
     for line in fh:
         m = LOG_RE.match(line.rstrip())
-        current_match = None
-        current_trace = []
-
         if m:
             if current_match:
                 render_entry(current_match, current_trace)
@@ -121,8 +121,8 @@ def process_stream(fh):
         else:
             current_trace.append(line.rstrip())
 
-        if current_match:
-            render_entry(current_match, current_trace)
+    if current_match:
+        render_entry(current_match, current_trace)
 
 def main():
     try:
