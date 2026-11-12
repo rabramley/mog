@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mog"
+version = "0.1.0"
+description = "Tomcat log prettifier"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "rich",
+]
+
+[project.scripts]
+mog = "mog.cli:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+    "ruff>=0.14",
+    "ty>=0.0.1a20",
+]
+
+[tool.ruff]
+target-version = "py314"
+line-length = 88
+
+[tool.ruff.lint]
+select = [
+    "E",    # pycodestyle errors
+    "F",    # Pyflakes
+    "I",    # import sorting
+    "UP",   # Python upgrades
+    "B",    # likely bugs
+    "SIM",  # simplifications
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = [
+    "--strict-markers",
+    "--strict-config",
+]
