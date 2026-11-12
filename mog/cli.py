@@ -35,24 +35,26 @@ def print_log_entry(match):
     colour = LEVEL_COLOURS.get(level, "white")
 
     header = Text()
-    header.append(match.group("timestamp"), style="cyan")
-    header.append("\n")
-    header.append(level.ljust(8), style=colour)
-    header.append(" ")
-    header.append(match.group("thread"), style="magenta")
-    header.append("\n")
-    header.append(match.group("logger"), style="bright_black")
-
-    console.print(header)
+    header.append(level, style=colour)
 
     message = Text.from_ansi(match.group("message"))
 
+    body = Text()
+    body.append(match.group("timestamp"), style="cyan")
+    body.append("\n")
+    body.append(match.group("thread"), style="magenta")
+    body.append("\n")
+    body.append(match.group("logger"), style="bright_black")
+    body.append("\n")
+    body.append(message)
+
+
     console.print(
         Panel(
-            message,
+            body,
             border_style=colour,
-            title=level,
-            expand=False,
+            title=header,
+            expand=True,
         )
     )
 
@@ -61,23 +63,29 @@ def print_stacktrace(line):
     console.print(line.rstrip(), style="dim")
 
 
-def process_file(filename):
-    with open(filename, encoding="utf-8", errors="replace") as fh:
-        for line in fh:
-            m = LOG_RE.match(line.rstrip())
-
-            if m:
-                print_log_entry(m)
-            else:
-                print_stacktrace(line)
+def process_stream(fh):
+    for line in fh:
+        m = LOG_RE.match(line.rstrip())
+        if m:
+            print_log_entry(m)
+        else:
+            print_stacktrace(line)
 
 
 def main():
-    if len(sys.argv) != 2:
-        print(f"Usage: {Path(sys.argv[0]).name} catalina.out")
-        sys.exit(1)
+    if len(sys.argv) == 2:
+        with open(sys.argv[1], encoding="utf-8", errors="replace") as fh:
+            process_stream(fh)
 
-    process_file(sys.argv[1])
+    elif not sys.stdin.isatty():
+        process_stream(sys.stdin)
+
+    else:
+        print(
+            f"Usage: {Path(sys.argv[0]).name} catalina.out\n"
+            f"   or: cat catalina.out | {Path(sys.argv[0]).name}"
+        )
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()

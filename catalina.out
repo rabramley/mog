@@ -1,0 +1,340 @@
+12-Nov-2026 11:41:09.309 INFO [main] org.apache.catalina.startup.Catalina.addClusterRuleSet Cluster RuleSet not found due to [java.lang.ClassNotFoundException: org.apache.catalina.ha.ClusterRuleSet]. Cluster configuration disabled.
+12-Nov-2026 11:41:09.576 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.120
+12-Nov-2026 11:41:09.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 17 1969 12:40:04 UTC
+12-Nov-2026 11:41:09.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.120.0
+12-Nov-2026 11:41:09.577 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+12-Nov-2026 11:41:09.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.14.0-687.61.1.el9_8.0.1.x86_64
+12-Nov-2026 11:41:09.578 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+12-Nov-2026 11:41:09.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.504.b01-1.2.el9_8.x86_64/jre
+12-Nov-2026 11:41:09.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_504-b01
+12-Nov-2026 11:41:09.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Red Hat, Inc.
+12-Nov-2026 11:41:09.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /local/tomcat9
+12-Nov-2026 11:41:09.579 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat
+12-Nov-2026 11:41:09.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.library.path=/usr/lib
+12-Nov-2026 11:41:09.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djavax.sql.DataSource.Factory=org.apache.commons.dbcp.BasicDataSourceFactory
+12-Nov-2026 11:41:09.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/local/tomcat9
+12-Nov-2026 11:41:09.581 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat
+12-Nov-2026 11:41:09.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=
+12-Nov-2026 11:41:09.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/local/tomcat9/temp
+12-Nov-2026 11:41:09.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/share/tomcat/conf/logging.properties
+12-Nov-2026 11:41:09.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Nov-2026 11:41:09.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+12-Nov-2026 11:41:09.586 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/lib]
+12-Nov-2026 11:41:10.056 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+12-Nov-2026 11:41:10.109 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [848] milliseconds
+12-Nov-2026 11:41:10.142 SEVERE [main] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:41:10.149 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+12-Nov-2026 11:41:10.150 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.120]
+12-Nov-2026 11:41:10.157 SEVERE [main] org.apache.catalina.startup.HostConfig.beforeStart Unable to create directory for deployment: [/local/tomcat9/conf/Catalina/localhost]
+12-Nov-2026 11:41:10.177 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/local/tomcat9/webapps/openspecimen.war]
+12-Nov-2026 11:41:17.696 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Nov-2026 11:41:19.644 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+12-Nov-2026 11:41:19.651 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Context [/openspecimen] startup failed due to previous errors
+12-Nov-2026 11:41:19.670 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/local/tomcat9/webapps/openspecimen.war] has finished in [9,493] ms
+12-Nov-2026 11:41:19.710 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+12-Nov-2026 11:41:19.742 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [9632] milliseconds
+12-Nov-2026 11:41:29.714 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:41:29.716 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:41:39.717 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:41:39.718 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:41:49.720 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:41:49.720 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:41:59.721 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:41:59.721 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:42:09.723 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:42:09.723 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:42:19.724 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:42:19.724 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:42:29.725 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:42:29.726 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:42:39.728 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:42:39.730 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:42:49.731 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:42:49.732 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:42:59.736 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:42:59.739 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:43:09.740 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:43:09.741 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:43:19.743 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:43:19.744 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:43:29.747 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:43:29.747 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:43:39.748 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:43:39.748 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:43:49.749 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:43:49.749 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:43:59.750 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:43:59.750 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:44:09.751 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:44:09.752 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:44:19.752 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:44:19.753 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:44:29.754 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:44:29.755 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:44:39.756 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:44:39.756 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:44:49.757 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:44:49.757 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:44:59.758 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:44:59.758 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:45:09.761 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:45:09.762 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:45:19.762 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:45:19.762 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:45:29.763 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:45:29.765 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:45:39.766 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:45:39.767 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:45:49.768 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:45:49.768 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:45:59.769 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:45:59.769 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:46:09.770 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:46:09.770 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:46:19.771 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:46:19.771 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:46:29.772 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:46:29.773 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:46:39.774 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:46:39.774 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:46:49.775 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:46:49.776 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:46:59.776 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:46:59.777 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:47:09.778 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:47:09.779 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:47:19.780 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:47:19.784 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:47:29.785 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:47:29.785 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:47:39.786 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:47:39.788 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:47:49.789 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:47:49.789 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:47:59.790 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:47:59.790 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:48:09.791 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:48:09.791 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:48:19.792 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:48:19.793 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:48:29.794 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:48:29.794 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:48:39.795 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:48:39.796 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:48:49.797 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:48:49.797 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:48:59.799 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:48:59.800 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:49:09.802 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:49:09.803 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:49:19.803 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:49:19.803 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:49:29.804 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:49:29.804 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:49:39.805 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:49:39.805 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:49:49.806 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:49:49.806 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:49:59.807 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:49:59.807 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:50:09.808 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:50:09.808 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:50:19.809 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:50:19.809 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:50:29.810 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:50:29.810 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:50:39.811 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:50:39.811 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:50:49.812 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:50:49.812 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:50:59.813 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:50:59.813 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:51:09.814 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:51:09.815 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:51:19.815 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:51:19.816 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:51:29.817 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:51:29.817 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:51:39.818 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:51:39.819 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:51:49.819 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:51:49.820 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:51:59.820 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:51:59.820 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:52:09.821 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:52:09.822 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:52:19.823 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:52:19.823 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:52:29.824 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:52:29.824 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:52:39.825 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:52:39.825 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:52:49.826 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:52:49.826 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:52:59.827 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:52:59.827 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:53:09.828 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:53:09.828 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:53:19.829 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:53:19.829 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:53:29.830 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:53:29.830 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:53:39.831 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:53:39.831 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:53:49.832 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:53:49.832 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:53:59.833 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:53:59.833 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:54:09.833 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:54:09.834 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:54:19.835 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:54:19.835 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:54:29.836 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:54:29.836 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:54:39.838 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:54:39.838 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:54:49.839 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:54:49.839 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:54:59.840 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:54:59.840 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:55:09.842 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:55:09.842 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:55:19.843 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:55:19.843 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:55:29.844 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:55:29.844 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:55:39.845 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:55:39.845 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:55:49.846 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:55:49.846 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:55:59.847 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:55:59.847 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:56:09.848 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:56:09.848 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:56:19.849 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:56:19.849 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:56:29.850 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:56:29.850 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:56:39.851 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:56:39.851 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:56:49.852 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:56:49.852 SEVERE [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:56:59.853 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:56:59.853 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:57:09.854 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/usr/share/tomcat/conf/tomcat-users.xml]
+12-Nov-2026 11:57:09.854 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+12-Nov-2026 11:57:19.856 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/local/tomcat9/conf/tomcat-users.xml]
+12-Nov-2026 11:57:22.297 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+12-Nov-2026 11:57:22.311 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+12-Nov-2026 11:57:22.312 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+12-Nov-2026 11:57:22.321 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+12-Nov-2026 11:57:22.888 INFO [main] org.apache.catalina.startup.Catalina.addClusterRuleSet Cluster RuleSet not found due to [java.lang.ClassNotFoundException: org.apache.catalina.ha.ClusterRuleSet]. Cluster configuration disabled.
+12-Nov-2026 11:57:23.127 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.120
+12-Nov-2026 11:57:23.128 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 17 1969 12:40:04 UTC
+12-Nov-2026 11:57:23.128 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.120.0
+12-Nov-2026 11:57:23.128 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+12-Nov-2026 11:57:23.128 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.14.0-687.61.1.el9_8.0.1.x86_64
+12-Nov-2026 11:57:23.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+12-Nov-2026 11:57:23.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.504.b01-1.2.el9_8.x86_64/jre
+12-Nov-2026 11:57:23.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_504-b01
+12-Nov-2026 11:57:23.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Red Hat, Inc.
+12-Nov-2026 11:57:23.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /local/tomcat9
+12-Nov-2026 11:57:23.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat
+12-Nov-2026 11:57:23.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.library.path=/usr/lib
+12-Nov-2026 11:57:23.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djavax.sql.DataSource.Factory=org.apache.commons.dbcp.BasicDataSourceFactory
+12-Nov-2026 11:57:23.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/local/tomcat9
+12-Nov-2026 11:57:23.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat
+12-Nov-2026 11:57:23.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=
+12-Nov-2026 11:57:23.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/local/tomcat9/temp
+12-Nov-2026 11:57:23.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/share/tomcat/conf/logging.properties
+12-Nov-2026 11:57:23.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Nov-2026 11:57:23.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+12-Nov-2026 11:57:23.137 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/lib]
+12-Nov-2026 11:57:23.540 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+12-Nov-2026 11:57:23.574 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [727] milliseconds
+12-Nov-2026 11:57:23.613 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+12-Nov-2026 11:57:23.614 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.120]
+12-Nov-2026 11:57:23.618 SEVERE [main] org.apache.catalina.startup.HostConfig.beforeStart Unable to create directory for deployment: [/local/tomcat9/conf/Catalina/localhost]
+12-Nov-2026 11:57:23.639 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/local/tomcat9/webapps/openspecimen.war]
+12-Nov-2026 11:57:29.188 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Nov-2026 11:57:31.123 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+12-Nov-2026 11:57:31.186 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Context [/openspecimen] startup failed due to previous errors
+12-Nov-2026 11:57:31.201 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/local/tomcat9/webapps/openspecimen.war] has finished in [7,562] ms
+12-Nov-2026 11:57:31.211 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+12-Nov-2026 11:57:31.239 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [7664] milliseconds
+12-Nov-2026 12:00:16.875 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+12-Nov-2026 12:00:16.895 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+12-Nov-2026 12:00:16.896 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+12-Nov-2026 12:00:16.901 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+12-Nov-2026 12:00:17.271 INFO [main] org.apache.catalina.startup.Catalina.addClusterRuleSet Cluster RuleSet not found due to [java.lang.ClassNotFoundException: org.apache.catalina.ha.ClusterRuleSet]. Cluster configuration disabled.
+12-Nov-2026 12:00:17.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.120
+12-Nov-2026 12:00:17.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 17 1969 12:40:04 UTC
+12-Nov-2026 12:00:17.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.120.0
+12-Nov-2026 12:00:17.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+12-Nov-2026 12:00:17.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.14.0-687.61.1.el9_8.0.1.x86_64
+12-Nov-2026 12:00:17.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+12-Nov-2026 12:00:17.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.504.b01-1.2.el9_8.x86_64/jre
+12-Nov-2026 12:00:17.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_504-b01
+12-Nov-2026 12:00:17.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Red Hat, Inc.
+12-Nov-2026 12:00:17.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /local/tomcat9
+12-Nov-2026 12:00:17.449 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat
+12-Nov-2026 12:00:17.450 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.library.path=/usr/lib
+12-Nov-2026 12:00:17.451 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djavax.sql.DataSource.Factory=org.apache.commons.dbcp.BasicDataSourceFactory
+12-Nov-2026 12:00:17.451 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/local/tomcat9
+12-Nov-2026 12:00:17.451 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat
+12-Nov-2026 12:00:17.451 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=
+12-Nov-2026 12:00:17.451 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/local/tomcat9/temp
+12-Nov-2026 12:00:17.451 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/share/tomcat/conf/logging.properties
+12-Nov-2026 12:00:17.451 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Nov-2026 12:00:17.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+12-Nov-2026 12:00:17.452 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/lib]
+12-Nov-2026 12:00:17.855 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+12-Nov-2026 12:00:17.887 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [650] milliseconds
+12-Nov-2026 12:00:17.930 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+12-Nov-2026 12:00:17.930 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.120]
+12-Nov-2026 12:00:17.933 SEVERE [main] org.apache.catalina.startup.HostConfig.beforeStart Unable to create directory for deployment: [/local/tomcat9/conf/Catalina/localhost]
+12-Nov-2026 12:00:17.953 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/local/tomcat9/webapps/openspecimen.war]
+12-Nov-2026 12:00:23.479 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Nov-2026 12:00:25.447 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+12-Nov-2026 12:00:25.535 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Context [/openspecimen] startup failed due to previous errors
+12-Nov-2026 12:00:25.554 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/local/tomcat9/webapps/openspecimen.war] has finished in [7,600] ms
+12-Nov-2026 12:00:25.560 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+12-Nov-2026 12:00:25.588 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [7700] milliseconds
+12-Nov-2026 13:13:38.291 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+12-Nov-2026 13:13:38.300 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+12-Nov-2026 13:13:38.301 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+12-Nov-2026 13:13:38.305 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+12-Nov-2026 13:13:38.675 INFO [main] org.apache.catalina.startup.Catalina.addClusterRuleSet Cluster RuleSet not found due to [java.lang.ClassNotFoundException: org.apache.catalina.ha.ClusterRuleSet]. Cluster configuration disabled.
+12-Nov-2026 13:13:38.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.120
+12-Nov-2026 13:13:38.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 17 1969 12:40:04 UTC
+12-Nov-2026 13:13:38.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.120.0
+12-Nov-2026 13:13:38.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+12-Nov-2026 13:13:38.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.14.0-687.61.1.el9_8.0.1.x86_64
+12-Nov-2026 13:13:38.893 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+12-Nov-2026 13:13:38.893 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.504.b01-1.2.el9_8.x86_64/jre
+12-Nov-2026 13:13:38.893 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_504-b01
+12-Nov-2026 13:13:38.894 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Red Hat, Inc.
+12-Nov-2026 13:13:38.894 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /local/tomcat9
+12-Nov-2026 13:13:38.894 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat
+12-Nov-2026 13:13:38.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.library.path=/usr/lib
+12-Nov-2026 13:13:38.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djavax.sql.DataSource.Factory=org.apache.commons.dbcp.BasicDataSourceFactory
+12-Nov-2026 13:13:38.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/local/tomcat9
+12-Nov-2026 13:13:38.895 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat
+12-Nov-2026 13:13:38.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=
+12-Nov-2026 13:13:38.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/local/tomcat9/temp
+12-Nov-2026 13:13:38.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/share/tomcat/conf/logging.properties
+12-Nov-2026 13:13:38.896 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Nov-2026 13:13:38.897 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+12-Nov-2026 13:13:38.898 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/lib]
+12-Nov-2026 13:13:39.331 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+12-Nov-2026 13:13:39.366 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [736] milliseconds
+12-Nov-2026 13:13:39.406 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+12-Nov-2026 13:13:39.408 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.120]
+12-Nov-2026 13:13:39.412 SEVERE [main] org.apache.catalina.startup.HostConfig.beforeStart Unable to create directory for deployment: [/local/tomcat9/conf/Catalina/localhost]
+12-Nov-2026 13:13:39.430 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/local/tomcat9/webapps/openspecimen.war]
+12-Nov-2026 13:13:44.996 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Nov-2026 13:13:46.932 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+12-Nov-2026 13:13:47.019 SEVERE [main] org.apache.catalina.core.StandardContext.startInternal Context [/openspecimen] startup failed due to previous errors
+12-Nov-2026 13:13:47.036 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/local/tomcat9/webapps/openspecimen.war] has finished in [7,605] ms
+12-Nov-2026 13:13:47.042 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+12-Nov-2026 13:13:47.071 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [7704] milliseconds
