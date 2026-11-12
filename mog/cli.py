@@ -54,7 +54,7 @@ def append_trace(body, trace_lines):
             elif FRAME_RE.match(line):
                 body.append(line + "\n", style="cyan")
 
-            elif EXCEPTION_RE.match(line):
+            elif EXCEPTION_RE.match(line.strip()):
                 body.append(line + "\n", style="red")
 
             else:
@@ -63,7 +63,7 @@ def append_trace(body, trace_lines):
 def append_exception_to_header(header, trace_lines):
     if trace_lines:
         for line in trace_lines:
-            m = EXCEPTION_RE.match(line)
+            m = EXCEPTION_RE.match(line.strip())
             if m:
                 exception_name = m.group(1).split('.')[-1]
                 header.append(f" | {exception_name}", style="red")
